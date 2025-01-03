@@ -1,0 +1,7 @@
+@import "./elements/header.css";
+
+.container {
+  margin-inline: auto;
+  max-width: 1620px;
+  padding-inline: 10px;
+}

@@ -15,37 +15,33 @@
     <link rel="stylesheet" href="/styles/main.css" />
   </head>
   <body>
-    <h1>Hello World</h1>
-    <h2>Hello World</h2>
-    <h3>Hello World</h3>
-    <h4>Hello World</h4>
-    <h5>Hello World</h5>
-    <h6>Hello World</h6>
+    <header class="header">
+      <div class="container header__grid">
+        <a href="/" class="header__logo">
+          <img src="/img/logo.svg" alt="Organick" />
+        </a>
 
-    <p>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam voluptas
-      debitis doloremque aut illum sapiente quos sint distinctio illo quisquam
-      eligendi quam velit labore adipisci, corrupti ab reprehenderit praesentium
-      perspiciatis.
-    </p>
+        <nav class="header__nav">
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/pages">Pages</a>
+          <a href="/shop">Shop</a>
+          <a href="/projects">Projects</a>
+          <a href="/news">News</a>
+        </nav>
 
-    <ol>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-    </ol>
+        <div class="header__search">
+          <input type="text" class="header__search-input" />
+          <button class="header__search-button">
+            <img src="/img/search.svg" alt="Search icon" />
+          </button>
+        </div>
 
-    <blockquote>
-      “For 60 years, WWF has worked to help people and nature thrive. As the
-      world's leading conservation organization, WWF works in nearly 100
-      countries. At every level, we collaborate with people around the world to
-      develop and deliver innovative solutions that protect communities,
-      wildlife, and the places in which they live.“
-    </blockquote>
-
-    <button style="margin-right: 10px">Click me</button>
-    <button class="secondary" style="margin-right: 10px">Click me</button>
-    <button class="outlined" style="margin-right: 10px">Click me</button>
-    <button class="without-arrow">Click me</button>
+        <button class="header__cart">
+          <img src="/img/cart.svg" alt="Cart icon" />
+          Cart (0)
+        </button>
+      </div>
+    </header>
   </body>
 </html>
