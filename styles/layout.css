@@ -11,3 +11,9 @@
   max-width: 1420px;
   padding-inline: 10px;
 }
+
+.container-xs {
+  margin-inline: auto;
+  max-width: 1128px;
+  padding-inline: 10px;
+}

@@ -1,0 +1,35 @@
+.testimonial {
+  padding-block: 164px;
+  background-image: url("/img/organick/testimonial-bg.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  text-align: center;
+}
+
+.testimonial__label {
+  color: var(--seafoam-green);
+  font-family: Yellowtail;
+  font-size: 36px;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.testimonial__heading {
+  margin-bottom: 58px;
+}
+
+.testimonial__reviews-navigation {
+  width: 35px;
+  margin-top: 15px;
+}
+
+.testimonial__divider {
+  border-bottom: 1px solid var(--light-gray);
+  margin-block: 93px 101px;
+}
+
+.testimonial__charts {
+  display: inline-flex;
+  gap: 62px;
+}

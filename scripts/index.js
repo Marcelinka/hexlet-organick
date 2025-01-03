@@ -28,7 +28,7 @@ const qualityChecks = [
       { name: "блок offter banner", points: 5, earned: 5 },
       { name: "блок about", points: 5, earned: 5 },
       { name: "блок shop", points: 5, earned: 5 },
-      { name: "блок Testimonial \\ Counter", points: 5, earned: 0 },
+      { name: "блок Testimonial \\ Counter", points: 5, earned: 5 },
       { name: "блок offer", points: 5, earned: 0 },
       { name: "блок Who We Are", points: 5, earned: 0 },
       { name: "блок gallery", points: 5, earned: 0 },

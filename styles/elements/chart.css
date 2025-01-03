@@ -1,0 +1,26 @@
+.chart {
+  width: 211px;
+  height: 211px;
+  background-image: url("/img/organick/chart-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: fill;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart__number {
+  color: var(--navy-blue);
+  font-family: Roboto;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: -8px;
+}
+
+.chart__label {
+  color: var(--navy-blue);
+  font-weight: 600;
+}

@@ -1,0 +1,34 @@
+.review {
+  display: inline-block;
+  max-width: 780px;
+}
+
+.review__photo {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+  margin-bottom: 12px;
+}
+
+.review__rating {
+  width: 122px;
+  margin-bottom: 16px;
+}
+
+.review__description {
+  margin-bottom: 20px;
+}
+
+.review__name {
+  color: var(--navy-blue);
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: -3px;
+}
+
+.review__profession {
+  color: var(--charcoal);
+  font-size: 15px;
+}
