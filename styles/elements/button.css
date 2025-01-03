@@ -6,10 +6,12 @@
   font-size: 20px;
   font-weight: 700;
   line-height: normal;
-  padding: 28px 39px 29px 39px;
+  padding: 28px 39px 28px 39px;
   display: inline-flex;
   align-items: center;
   gap: 10px;
+  min-width: 220px;
+  justify-content: center;
 }
 
 .button::after {

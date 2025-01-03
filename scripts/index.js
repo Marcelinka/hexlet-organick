@@ -27,7 +27,7 @@ const qualityChecks = [
       { name: "блок banner", points: 5, earned: 5 },
       { name: "блок offter banner", points: 5, earned: 5 },
       { name: "блок about", points: 5, earned: 5 },
-      { name: "блок shop", points: 5, earned: 0 },
+      { name: "блок shop", points: 5, earned: 5 },
       { name: "блок Testimonial \\ Counter", points: 5, earned: 0 },
       { name: "блок offer", points: 5, earned: 0 },
       { name: "блок Who We Are", points: 5, earned: 0 },
@@ -68,7 +68,7 @@ const qualityChecks = [
       {
         name: "каждая карточка интерактивна при наведении на любую область этой карточки",
         points: 2,
-        earned: 0,
+        earned: 2,
       },
       { name: "плавная прокрутка по якорям", points: 2, earned: 0 },
       {

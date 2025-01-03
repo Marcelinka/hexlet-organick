@@ -1,0 +1,115 @@
+/* Шаблон
+<a class="product" href="/shop/1">
+  <span class="product__label">%PRODUCT_LABEL%</span>
+  <div class="product__image">
+    <img
+      src="%PRODUCT_IMAGE%"
+      alt="%PRODUCT_NAME%"
+    />
+  </div>
+  <div class="product__name">%PRODUCT_NAME%</div>
+  <div class="product__divider"></div>
+  <div class="product__price-container">
+    <span class="product__price-old">$20.00</span>
+    <span class="product__price">%PRODUCT_PRICE%</span>
+    <img
+      src="/img/organick/rating.svg"
+      alt="Rating"
+      class="product__rating"
+    />
+  </div>
+</a>
+*/
+
+.product {
+  --padding-left: 30px;
+  --padding-right: 26px;
+
+  display: block;
+  border-radius: 30px;
+  background: var(--ghost-white);
+  padding-top: 73px;
+  padding-bottom: 17px;
+  padding-left: var(--padding-left);
+  padding-right: var(--padding-right);
+  position: relative;
+  text-align: left;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.product:hover {
+  opacity: 1;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product:active {
+  box-shadow: none;
+}
+
+.product__label {
+  border-radius: 8px;
+  background: var(--navy-blue);
+  color: var(--white);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: normal;
+  padding: 5px 12px 6px 12px;
+  position: absolute;
+  top: 28px;
+  left: 30px;
+}
+
+.product__image {
+  margin-inline: calc(-1 * var(--padding-left)) calc(-1 * var(--padding-right));
+  line-height: 0;
+  height: 324px;
+}
+
+.product__image img {
+  mix-blend-mode: multiply;
+  object-fit: contain;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.product__name {
+  color: var(--navy-blue);
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.product__divider {
+  border-bottom: 1px solid var(--light-silver);
+  margin-top: 13px;
+  margin-bottom: 5px;
+}
+
+.product__price-container {
+  display: flex;
+  align-items: center;
+}
+
+.product__price-old {
+  color: var(--dusty-gray);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 9px;
+  text-decoration: line-through;
+  align-self: flex-end;
+}
+
+.product__price {
+  color: var(--navy-blue);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.product__rating {
+  width: 84px;
+  margin-left: auto;
+}
