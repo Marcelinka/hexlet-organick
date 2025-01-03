@@ -27,6 +27,11 @@
   line-height: normal;
 }
 
+.header__nav .active {
+  pointer-events: none;
+  text-decoration: underline;
+}
+
 .header__search {
   margin-left: auto;
   margin-right: 18px;
