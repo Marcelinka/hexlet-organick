@@ -19,6 +19,7 @@
   --white: #ffffff;
   --pale-gray: #fafafa;
   --light-gray: #e0e0e0;
+  --organic-green: #68a47f;
 }
 
 body {
@@ -43,6 +44,7 @@ h6 {
 
 h1 {
   font-size: 70px;
+  line-height: 116%;
 }
 
 h2 {

@@ -5,3 +5,9 @@
   max-width: 1620px;
   padding-inline: 10px;
 }
+
+.container-sm {
+  margin-inline: auto;
+  max-width: 1420px;
+  padding-inline: 10px;
+}

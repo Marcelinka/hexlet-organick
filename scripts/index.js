@@ -15,7 +15,7 @@ const qualityChecks = [
       {
         name: "страница содержит ровно один элемент <h1>",
         points: 1,
-        earned: 0,
+        earned: 1,
       },
       { name: "добавлен favicon", points: 1, earned: 0 },
     ],
@@ -24,7 +24,7 @@ const qualityChecks = [
     section: "2. Вёрстка соответствует макету (60)",
     checks: [
       { name: "блок <header>", points: 5, earned: 5 },
-      { name: "блок banner", points: 5, earned: 0 },
+      { name: "блок banner", points: 5, earned: 5 },
       { name: "блок offter banner", points: 5, earned: 0 },
       { name: "блок about", points: 5, earned: 0 },
       { name: "блок shop", points: 5, earned: 0 },

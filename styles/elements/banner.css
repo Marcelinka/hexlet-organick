@@ -1,0 +1,21 @@
+.banner {
+  background-image: url("/img/organick/banner-background-2.png"),
+    url("/img/organick/banner-background-1.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 898px;
+  padding-top: 247px;
+}
+
+.banner__title {
+  color: var(--organic-green);
+  font-family: Yellowtail;
+  font-size: 36px;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.banner__heading {
+  margin-bottom: 23px;
+}
