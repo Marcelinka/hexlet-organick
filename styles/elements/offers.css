@@ -1,0 +1,10 @@
+.offers {
+  padding-top: 153px;
+  padding-bottom: 53px;
+}
+
+.offers__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px;
+}

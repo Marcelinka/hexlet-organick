@@ -1,0 +1,26 @@
+.offer {
+  padding: 53px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 367px;
+  background-image: var(--offer-background);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.offer__label {
+  color: var(--seafoam-green);
+  font-family: Yellowtail;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 5px;
+}
+
+.offer_dark .offer__label,
+.offer_dark h3 {
+  color: var(--white);
+}
