@@ -1,0 +1,68 @@
+.news-tile {
+  position: relative;
+  background-image: var(--news-tile-bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 524px;
+  border-radius: 30px;
+}
+
+.news-tile__date {
+  position: absolute;
+  top: 43px;
+  left: 32px;
+  display: inline-block;
+  color: var(--navy-blue);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 800;
+  line-height: normal;
+  width: 82px;
+  height: 82px;
+  background: var(--white);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-tile__date-month {
+  font-size: 20px;
+}
+
+.news-tile__content {
+  position: absolute;
+  bottom: -60px;
+  left: 32px;
+  right: 32px;
+  border-radius: 31px 34px 30px 30px;
+  background: var(--white);
+  box-shadow: 0px 20px 35px 0px rgba(167, 167, 167, 0.25);
+  padding: 46px 57px 60px 57px;
+}
+
+.news-tile__author {
+  color: var(--navy-blue);
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: normal;
+  padding-left: 26px;
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.news-tile__author::before {
+  content: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9Im5vbmUiIHZpZXdCb3g9IjAgMCAxOCAyMCI+PHBhdGggZmlsbD0iI0VGRDM3MiIgZD0iTTEyLjMxNiAxLjQ1NEMxMS40NzQuNTE3IDEwLjI5OCAwIDkgMCA3LjY5NSAwIDYuNTE1LjUxMyA1LjY3NyAxLjQ0NmMtLjg0Ny45NDItMS4yNiAyLjIyMy0xLjE2MyAzLjYwNkM0LjcwNiA3Ljc4IDYuNzE4IDEwIDkgMTBjMi4yODEgMCA0LjI5LTIuMjIgNC40ODYtNC45NDcuMDk4LTEuMzctLjMxOC0yLjY0OS0xLjE3LTMuNTk5Wk0xNi42MTYgMjBIMS4zODRjLS4yLjAwMy0uMzk3LS4wNC0uNTc4LS4xMjdhMS4zNDggMS4zNDggMCAwIDEtLjQ3LS4zN2MtLjI4LS4zNDctLjM5NC0uODItLjMxLTEuMy4zNjUtMi4wOSAxLjUwNS0zLjg0NSAzLjI5Ni01LjA3OEM0LjkxNSAxMi4wMyA2LjkzIDExLjQyOCA5IDExLjQyOGMyLjA3IDAgNC4wODUuNjAzIDUuNjc3IDEuNjk3IDEuNzkxIDEuMjMyIDIuOTMgMi45ODggMy4yOTYgNS4wNzguMDg0LjQ3OS0uMDMuOTUzLS4zMSAxLjNhMS4zNDcgMS4zNDcgMCAwIDEtLjQ3LjM3Yy0uMTgxLjA4Ni0uMzc4LjEzLS41NzguMTI3WiIvPjwvc3ZnPgo=");
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 18px;
+  line-height: 0;
+}
+
+.news-tile__description {
+  margin-bottom: 15px;
+}

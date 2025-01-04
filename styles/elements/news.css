@@ -1,0 +1,24 @@
+.news {
+  padding-block: 177px 185px;
+}
+
+.news__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 48px;
+}
+
+.news__label {
+  color: var(--seafoam-green);
+  font-family: Yellowtail;
+  font-size: 36px;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.news__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 46px;
+}

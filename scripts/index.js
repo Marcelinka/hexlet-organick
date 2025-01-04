@@ -32,7 +32,7 @@ const qualityChecks = [
       { name: "блок offer", points: 5, earned: 5 },
       { name: "блок Who We Are", points: 5, earned: 5 },
       { name: "блок gallery", points: 5, earned: 5 },
-      { name: "блок blog", points: 5, earned: 0 },
+      { name: "блок blog", points: 5, earned: 5 },
       { name: "блок newslatter", points: 5, earned: 0 },
       { name: "блок <footer>", points: 5, earned: 0 },
     ],
