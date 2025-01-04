@@ -1,0 +1,29 @@
+.offer-products {
+  background: var(--navy-blue);
+  padding-block: 200px;
+}
+
+.offer-products__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+
+.offer-products__label {
+  color: var(--seafoam-green);
+  font-family: Yellowtail;
+  font-size: 36px;
+  line-height: normal;
+  margin-bottom: 8px;
+}
+
+.offer-products__heading {
+  color: var(--white);
+}
+
+.offer-products__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}

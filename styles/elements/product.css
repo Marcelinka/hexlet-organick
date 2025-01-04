@@ -39,11 +39,15 @@
 
 .product:hover {
   opacity: 1;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px var(--dusty-gray);
 }
 
 .product:active {
   box-shadow: none;
+}
+
+.product_dark:hover {
+  box-shadow: 0 0 10px var(--silver);
 }
 
 .product__label {
