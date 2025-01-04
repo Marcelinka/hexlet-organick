@@ -1,0 +1,31 @@
+.gallery {
+  padding-block: 187px;
+  background: var(--pale-mint);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 583px;
+  gap: 42px;
+}
+
+.gallery__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: var(--gallery-item-bg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.gallery__item-link {
+  display: inline-block;
+  padding: 33px 83px 34px 83px;
+  border-radius: 20px;
+  background: var(--white);
+  color: var(--navy-blue);
+  font-family: Roboto;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: normal;
+}
