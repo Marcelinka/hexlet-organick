@@ -1,5 +1,6 @@
 @import "./elements/header.css";
 @import "./elements/newsletter.css";
+@import "./elements/footer.css";
 
 .container {
   margin-inline: auto;
